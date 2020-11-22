@@ -1,0 +1,15 @@
+The TokenizerProject.java contains that main that calls the Tokenizer class. Furthermore, it simply asks user to input path
+
+The Tokenizer.java contains the Tokenizer class as well as all the following function that correspond. 
+
+The Tokenizer Constructor: parses the file and split by spaces, ect... and assigns this to member, array list
+
+getTokens(): goes through entire arraylist and calls the tokenize method. Prints the last line, "33"
+
+tokenize(): checks if the given token is a keyword, symbol, integer, identifier, or a combination of all.
+
+identifier()/integer(): correspond according to guidelines
+
+comboToken(): reads in string, and looks at individual chars. Splits tokens based on special character, or else it'd be an illegal token
+
+Testing: This was done by using the examples provided on the course site. Numbers correspond.
